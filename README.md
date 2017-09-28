@@ -1,5 +1,5 @@
-# kirbi-misc module
-A module for [Kirbi](https://github.com/richardson-media-house/kirbi), that adds commands that didn't fall into other categories and don't need to be in separate modules.
+# doorman-misc module
+A module for [Doorman](https://github.com/FabricLabs/doorman), that adds commands that didn't fall into other categories and don't need to be in separate modules.
 
 ## Usage
 

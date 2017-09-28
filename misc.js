@@ -1,6 +1,6 @@
 const unshort = require('unshort');
 
-module.exports = function (Kirbi) {
+module.exports = function (Doorman) {
 	return {
 		commands: [
 			'lmgtfy',
@@ -27,7 +27,7 @@ module.exports = function (Kirbi) {
 							cb(`Original url is: ${url}`, msg);
 						} else {
 							cb('This url can\'t be expanded', msg);
-							if (Kirbi.config.debug) {
+							if (Doorman.config.debug) {
 								console.log(err);
 							}
 						}
